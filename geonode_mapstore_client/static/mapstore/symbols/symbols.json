@@ -15,5 +15,6 @@
   {"name": "arrow-west", "label": "Arrow West"},
   {"name": "arrow-north-west", "label": "Arrow North West"},
   {"name": "traffic-cone", "label": "Traffic Cone"},
-  {"name": "plus", "label": "Plus"}
+  {"name": "plus", "label": "Plus"},
+  {"name": "market", "label": "market"}
 ]
