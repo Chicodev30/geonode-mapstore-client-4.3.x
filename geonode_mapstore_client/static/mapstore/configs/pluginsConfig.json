@@ -333,7 +333,44 @@
       "description": "plugins.ScaleBox.description",
       "dependencies": [
         "MapFooter"
-      ]
+      ],
+      "defaultConfig": {
+        "container": "#footer-scalebar-container",
+        "units": "metric",
+        "maxWidth": 150,
+        "minWidth": 100,
+        "updateWhenIdle": true,
+        "showText": true,
+        "steps": 2,
+        "text": "Escala: {scale}",
+        "style": {
+          "color": "#000000",
+          "fontSize": "12px",
+          "fontFamily": "Arial, sans-serif",
+          "padding": "5px",
+          "backgroundColor": "rgba(255, 255, 255, 0.7)",
+          "borderRadius": "3px"
+        },
+        "scales": [
+          5000000,
+          2500000,
+          1000000,
+          750000,
+          500000,
+          250000,
+          175000,
+          125000,
+          100000,
+          75000,
+          50000,
+          25000,
+          10000,
+          5000,
+          2500,
+          1000,
+          500
+        ]
+      }
     },
     {
       "name": "GlobeViewSwitcher",
