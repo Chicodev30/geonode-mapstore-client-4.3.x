@@ -328,7 +328,7 @@
       "hidden": true
     },
     {
-      "name": "ScaleBox",
+      "name": "CustomScaleBox",
       "title": "plugins.ScaleBox.title",
       "description": "plugins.ScaleBox.description",
       "dependencies": [
@@ -337,39 +337,21 @@
       "defaultConfig": {
         "container": "#footer-scalebar-container",
         "units": "metric",
-        "maxWidth": 150,
-        "minWidth": 100,
+        "maxWidth": 200,
+        "minWidth": 50,
         "updateWhenIdle": true,
         "showText": true,
         "steps": 2,
-        "text": "Escala: {scale}",
-        "style": {
-          "color": "#000000",
-          "fontSize": "12px",
-          "fontFamily": "Arial, sans-serif",
-          "padding": "5px",
-          "backgroundColor": "rgba(255, 255, 255, 0.7)",
-          "borderRadius": "3px"
+        "text": {
+          "color": "#333",
+          "fontSize": "12px"
         },
-        "scales": [
-          5000000,
-          2500000,
-          1000000,
-          750000,
-          500000,
-          250000,
-          175000,
-          125000,
-          100000,
-          75000,
-          50000,
-          25000,
-          10000,
-          5000,
-          2500,
-          1000,
-          500
-        ]
+        "style": {
+          "backgroundColor": "rgba(255, 255, 255, 0.8)",
+          "borderRadius": "4px",
+          "padding": "5px",
+          "margin": "5px"
+        }
       }
     },
     {

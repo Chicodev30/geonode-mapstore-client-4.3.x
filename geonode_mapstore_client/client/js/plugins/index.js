@@ -17,6 +17,9 @@ import { toModulePlugin as msToModulePlugin } from '@mapstore/framework/utils/Mo
 
 import TOCPlugin from '@mapstore/framework/plugins/TOC';
 
+// Import do CustomScaleBox
+import CustomScaleBox from './CustomScaleBox';
+
 let epicsNamesToExclude = [
     'loadGeostoryEpic',
     'reloadGeoStoryOnLoginLogout',
@@ -435,7 +438,8 @@ export const plugins = {
     SettingsPlugin: toModulePlugin(
         'Settings',
         () => import(/* webpackChunkName: 'plugins/settings' */ '@mapstore/framework/plugins/Settings')
-    )
+    ),
+    CustomScaleBoxPlugin: CustomScaleBox.CustomScaleBoxPlugin
 };
 
 const pluginsDefinition = {
