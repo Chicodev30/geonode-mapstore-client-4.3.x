@@ -1206,6 +1206,73 @@
         },
         {
             "types": [
+                "point",
+                "vector"
+            ],
+            "title": "Closed arrow",
+            "preview": {
+                "config": {
+                    "type": "point",
+                    "paths": [
+                        {
+                            "d": "M 40.027335,53.266123 159.77305,100 40.027335,146.73388Z",
+                            "stroke": "#ff338f",
+                            "strokeWidth": 4,
+                            "fill": "none"
+                        }
+                    ]
+                }
+            },
+            "code": {
+                "rules": [
+                    {
+                        "name": "Closed arrow",
+                        "symbolizers": [
+                            {
+                                "kind": "Mark",
+                                "wellKnownName": "shape://carrow",
+                                "strokeColor": "#ff338f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "types": [
+                "point",
+                "vector"
+            ],
+            "title": "Arrow North West",
+            "preview": {
+                "config": {
+                    "type": "point",
+                    "paths": [
+                        {
+                            "image": "static/mapstore/symbols/arrow-north-west.svg",
+                            "size": 32
+                        }
+                    ]
+                }
+            },
+            "code": {
+                "rules": [
+                    {
+                        "name": "Arrow North West",
+                        "symbolizers": [
+                            {
+                                "kind": "Icon",
+                                "image": "static/mapstore/symbols/arrow-north-west.svg",
+                                "size": 32,
+                                "opacity": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "types": [
                 "polygon",
                 "point",
                 "vector"
